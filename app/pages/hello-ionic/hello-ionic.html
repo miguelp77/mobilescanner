@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Hello Ionic</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="getting-started">
+
+  <h3>QR Code Scan!</h3>>
+<ion-card>
+    <ion-card-content>
+      Hello World, this is my camera app
+
+      <button (click)="takePicture()">Scan</button>
+
+      Latest Code:
+
+     <!-- <img [src]="base64Image" *ngIf="base64Image" /> -->
+     <p>{{barcodeText}}</p>
+     <p>{{getResponse}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
