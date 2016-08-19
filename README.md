@@ -1,2 +1,0 @@
-# mobilescanner
-QR Code reader
